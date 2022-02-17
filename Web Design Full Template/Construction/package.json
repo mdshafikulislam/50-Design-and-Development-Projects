@@ -1,8 +1,12 @@
 {
+  "scripts": {
+    "css": "node-sass css/styles.scss -o dist",
+    "css:watch": "npm run css && node-sass css/styles.scss -wo dist"
+  },
   "devDependencies": {
     "sass": "^1.49.7"
+  },
+  "dependencies": {
+    "sass-watch": "^0.1.0"
   }
 }
-
-
-
